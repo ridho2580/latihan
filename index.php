@@ -28,6 +28,7 @@ while($data = $sql->fetch_assoc()){
 	$rows[] = array('c' => $temp);
 }
  
+
 //memasukkan array $rows dalam variabel $table
 $table['rows'] = $rows;
 //mengeluarkan data dengan json_encode. silahkan di echo kalau ingin menampilkan data nya
