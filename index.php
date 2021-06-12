@@ -13,7 +13,8 @@ $table['cols'] = array(
 	//membuat label untuk jumlah siswa, tipe harus number untuk kalkulasi persentasenya
 	array('label' => 'Jumlah siswa', 'type' => 'number')
 );
- 
+ //file ini saya edit yaa
+
 //melakukan query ke database select
 $sql = $conn->query("SELECT * FROM kelas");
 //perulangan untuk menampilkan data dari database
