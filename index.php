@@ -49,7 +49,7 @@ $jsonTable = json_encode($table);
 		var data = new google.visualization.DataTable(<?php echo $jsonTable; ?>);
  
 		// Set options, bisa anda rubah
-		var options = {'title':'Data siswa',
+		var options = {'title':'Data siswa PCR',
 					   'width':500,
 					   'height':400};
  
